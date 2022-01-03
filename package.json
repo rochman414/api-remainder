@@ -1,0 +1,37 @@
+{
+  "name": "api-remainder",
+  "version": "1.0.0",
+  "description": "Api Remainder",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochman414/api-remainder.git"
+  },
+  "keywords": [
+    "express",
+    "sequelize",
+    "pg"
+  ],
+  "author": "Abdul Rochman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rochman414/api-remainder/issues"
+  },
+  "homepage": "https://github.com/rochman414/api-remainder#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.3.0"
+  }
+}
