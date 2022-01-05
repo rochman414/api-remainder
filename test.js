@@ -52,7 +52,6 @@ function daysInMonth (month, year) {
     return new Date(year, month, 0).getDate();
 }
 
-//masukan codingan dari sini ke cron nodejs
 var tglJth = "01-02-2022";
 
 var jth = tglJth.split('-');
@@ -151,7 +150,17 @@ if(cyear != jthYear){
         sendEmail(message);
     }
 }
-//akhir codingan yang di masukan ke fungsi cron nodejs
+
+
+
+
+
+
+
+
+
+
+
 
 
 // function cekTanggal() {  
