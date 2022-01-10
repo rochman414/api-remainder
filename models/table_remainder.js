@@ -19,8 +19,7 @@ module.exports = (sequelize, DataTypes) => {
     tagihan: DataTypes.STRING,
     tgl_tagihan_telah_lunas: DataTypes.STRING,
     tgl_jatuh_tempo: DataTypes.STRING,
-    status: DataTypes.STRING,
-    keterlambatan_bayar: DataTypes.STRING
+    status: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'table_remainder',

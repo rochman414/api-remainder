@@ -28,9 +28,6 @@ module.exports = {
       status: {
         type: Sequelize.STRING
       },
-      keterlambatan_bayar: {
-        type: Sequelize.STRING
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
