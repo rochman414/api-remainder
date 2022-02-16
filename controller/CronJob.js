@@ -1,7 +1,7 @@
 require('dotenv').config();
 const cron = require('node-cron');
 const nodemailer = require('nodemailer');
-const table_remainder = require('../models').table_remainder;
+const {table_remainder} = require('../models');
 
 let transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
