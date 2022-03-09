@@ -20,6 +20,7 @@ module.exports = {
     },
 
     addUsers: async(req, res) => {
+        console.log(req.body)
         try {
             const user = await users.findOne({where: { username: req.body.username }})
             

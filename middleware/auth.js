@@ -4,7 +4,7 @@ require('dotenv').config();
 
 module.exports = {
     authentication : (req, res, next) => {
-        const token = req.headers.token;
+        const token = req.headers.bearer;
         if(!token){
             res.status(404).json({status_code: 404, message: 'Token tidak di temukan!'});
         }
