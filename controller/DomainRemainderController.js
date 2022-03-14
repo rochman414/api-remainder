@@ -7,7 +7,7 @@ module.exports = {
         try {
             const getAll = await remainder.findAll({where: {jenis_remainder: 'domain'}})
             if(getAll != null){
-                res.status(200).json({status_code: 200, data: getAll[0]})
+                res.status(200).json({status_code: 200, data: getAll})
             } else {
                 res.status(400).json({status_code: 400, message: 'Tidak ada data!'});
             }
